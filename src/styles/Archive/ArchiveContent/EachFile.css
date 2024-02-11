@@ -1,0 +1,217 @@
+ .each-filefalse {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 45px;
+   margin-bottom: 21px;
+   border-radius: 10px;
+   overflow-y: hidden;
+   transition: height 0.2s ease;
+   flex-direction: column;
+   cursor: default;
+ }
+ 
+ .each-filefalse:hover {
+   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.05);
+ }
+ 
+.each-file-top {
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding: 0 10px;
+}
+
+.each-file-icon {
+    flex: 1;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+}
+
+.icon-linkfalsefalse {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  background-color: #FF1654;
+}
+.iconfalse-uploadfalse {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  background-color: #118AD3;
+}
+
+.iconfalsefalse-record {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  background-color: #40C6B8;
+}
+     
+  
+.each-file-namefalse {
+  flex: 5.4;
+  direction: ltr;
+  text-align: end;
+  max-height: 28px;
+  white-space: nowrap;
+  overflow-x: auto;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.each-file-namefalse::-webkit-scrollbar {
+  display: none;
+}
+      
+.each-file-name-link {
+  flex: 5.4;
+      direction: ltr;
+      text-align: end;
+      max-height: 28px;
+      white-space: nowrap;
+      overflow-x: auto;
+      font-size: 16px;
+      font-weight: 300;
+      color: #118AD3;
+      font-family: Arial;
+}
+
+.each-file-name-link::-webkit-scrollbar {
+  display: none;
+}
+
+.each-file-date {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  flex: 1.7;
+  text-align: center;
+}
+
+.each-file-type {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  flex: 1;
+  direction: ltr;
+  text-align: center;
+}
+
+.each-file-duration {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  flex: 1.1;
+  position: relative;
+  text-align: center;
+}
+   
+.each-file-tools svg {
+  fill: #8F8F8F;
+}
+
+.each-file-tools svg:hover {
+  fill: #07B49B;
+}
+.each-file-tools {
+  flex: 1.8;
+  display: flex;
+  align-items: center;
+} 
+ 
+.each-file-tools div {
+  width: auto;
+  padding: 0 7px;
+  height: 25px;
+}
+
+/* Download */
+.each-file-tools div:nth-child(1) {
+  fill: #8F8F8F;
+  margin-top: 3px;
+}
+
+/* Word */
+.each-file-tools div:nth-child(2) {
+  fill: #8F8F8F;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+
+/* Copy */
+.each-file-tools div:nth-child(3) {
+  fill: #8F8F8F;
+  margin-right: 12px;
+  margin-top: 4.5px;
+}
+
+/* Delete */
+.each-file-tools div:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  border-radius: 50px;
+  fill: #8F8F8F;
+}
+  
+.each-file-tools div:nth-child(4) svg {
+  stroke: #FFFFFF;
+}
+
+.each-file-tools div:nth-child(4):hover {
+  background-color: #DC3545;
+}
+.each-file-tools div:nth-child(4):first-child:hover {
+  color: #000000;
+}
+
+.each-file-tools div:nth-child(4):hover svg {
+  stroke: #FFFFFF;
+}
+    
+.each-file-bottom {
+  height: calc(100% - 65px);
+}
+
+.tooltip {
+  color: rgba(0, 0, 0, 0.7);
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.03);
+  margin-top: -12px;
+}
+  
+.each-file-change-file {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 21px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  transition: height 0.2s ease;
+  flex-direction: column;
+  cursor: default;
+  height: 352px;
+}
+  
+  

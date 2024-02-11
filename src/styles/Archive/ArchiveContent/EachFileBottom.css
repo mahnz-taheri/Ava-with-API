@@ -1,0 +1,115 @@
+.bottom {
+  position: relative;
+  height: 100%;
+  margin-top: 20px;
+  margin-right: 68px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+
+.bottom-top {
+  direction: ltr;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  height: 46px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+  
+.bottom-top-timed-text{
+  width: 144px;
+  margin-right: 20px;
+}
+
+.bottom-top-simple-text{
+  width: 103px;
+}
+
+.bottom-top-simple-text,
+.bottom-top-timed-text {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000000;
+  height: 46px;
+  align-items: flex-start;
+  user-select: none;
+  cursor: pointer;
+}
+
+
+
+.bottom-top-simple-text-active,
+.bottom-top-timed-text-active {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  height: 46px;
+  align-items: flex-start;
+  user-select: none;
+  cursor: pointer;
+  border-bottom: 1px solid #000000;
+}
+
+.bottom-top-simple-text div,
+.bottom-top-timed-text div {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.bottom-top-simple-text-active div,
+.bottom-top-timed-text-active div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.bottom-top-simple-text div svg,
+.bottom-top-timed-text div svg,
+.bottom-top-simple-text div span,
+.bottom-top-timed-text div span {
+  margin-top: -10px;
+}
+
+.bottom-top-simple-text div span,
+.bottom-top-timed-text div span,
+.bottom-top-simple-text-active div span,
+.bottom-top-timed-text-active div span {
+  margin-right: 6px;
+}
+
+.bottom-output-center {
+    width: 100%;
+    height: 165px;
+  }
+
+.contain-time-text {
+  max-height: 160px;
+}
+
+.time-text {
+   height: 43px;
+ }
+
+.contain-simple-text {
+  max-height: 150px;
+  padding-right: 0px;
+  background-color: #FDFDFD;
+  border-radius: 5px;
+}
+
+  .bottom-output-bottom {
+    display: flex;
+    justify-content: center;
+    direction: ltr;
+    position: absolute;
+    bottom: 32px;
+    right: -20px;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: -16px;
+  }
+

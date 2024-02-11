@@ -1,0 +1,40 @@
+.goftar-upload {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+ 
+.goftar-upload-prefetch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 415px;
+  flex-direction: column;
+}
+
+.upload-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background-color: #118AD3;
+}
+
+.upload-text {
+  font-size: 16px;
+  font-weight: 300;
+  color: #626262;
+  text-align: center;
+}
+  
+.goftar-upload-fetch {
+  width: 100%;
+  height: 100%;
+}

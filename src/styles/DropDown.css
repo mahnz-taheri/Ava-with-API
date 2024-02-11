@@ -1,0 +1,96 @@
+
+.dropDown {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 48px 47px;
+    justify-content: space-between;
+  }
+  
+  /* left side */
+  .dropDown-user {
+    display: flex;
+    align-items: center;
+    width: 121px;
+    height: 40.5px;
+    border-radius: 20px;
+    border: 1.5px solid #00BA9F;
+    flex-direction: column;
+    overflow: hidden;
+    transition: height 0.2s ease;
+  }
+  
+  /* Guest */
+  .dropDown-user-top {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+  .dropDown-user-top .drop-icon {
+    transform: rotateX(180deg);
+    transition: 0.2s ease;
+  }
+  
+  .dropDown-user-top .dropDown-user-text {
+    margin-left: 11px;
+    margin-right: 5px;
+    margin-top: -4px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00BA9F;
+    user-select: none;
+  }
+  
+  .drop-line-space {
+    margin-top: 7px;
+    margin-bottom: 6px;
+    height: 0.6px;
+    width: 84px;
+    background-color: #00BA9F;
+  }
+  
+  /* Logout */
+  .dropDown-user-bottom {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropDown-user-bottom,
+  .dropDown-user-logout-text {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00BA9F;
+    user-select: none;
+  }
+  
+  /* Change -user height */
+  .change-dropDown-user {
+    display: flex;
+    align-items: center;
+    width: 121px;
+    border-radius: 20px;
+    border: 1.5px solid #00BA9F;
+    flex-direction: column;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    height: 80px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #00BA9F;
+    justify-content: center;
+    cursor: pointer;
+  }
+  

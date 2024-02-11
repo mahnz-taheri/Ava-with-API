@@ -1,0 +1,61 @@
+.contain-time-text {
+    text-align: start;
+    width: 598px;
+    margin-top: 16px;
+    padding-left: 2px;
+    direction: rtl;
+    max-height: 275px;
+    overflow-y: auto;
+    height: 100%;
+}  
+
+.contain-time-text::-webkit-scrollbar {
+  width: 8px;
+}
+
+.contain-time-text::-webkit-scrollbar-thumb {
+  background-color: #DADADA;
+  border-radius: 10px;
+}
+
+.contain-time-text::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.time-text {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 39px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000CC;
+} 
+
+.from-time {
+margin-right: 17px;
+}
+
+.to-time,
+.from-time {
+  width: 42px;
+}
+
+.text {
+  margin-right: 43px;
+}
+
+.odd-time-text {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 39px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 39px;
+  border-radius: 25px;
+  background-color: #F2F2F2;
+}

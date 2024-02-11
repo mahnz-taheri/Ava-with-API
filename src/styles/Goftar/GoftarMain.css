@@ -1,0 +1,101 @@
+ .goftar-main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+ }  
+   
+.goftar-main-bottom {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    height: 80vi;
+  }  
+
+.goftar-main-bottom-form-tabs {
+    display: flex;
+    align-items: center;    
+    justify-content:flex-end;
+}  
+
+.bottom-form-tab {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    transition: background-color 0.2s ease;
+    user-select: none;
+    cursor: pointer;
+}  
+
+.bottom-form-tab:nth-child(3) {
+    width: 120px;
+}
+           
+.bottom-form-tab:nth-child(2) {
+    width: 144px;
+}
+            
+.bottom-form-tab:nth-child(1) {
+    width: 90px;
+}
+  
+.bottom-form-tab-text {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 8px;
+    color: #969696;
+}
+  
+.bottom-form-tab-text-active {
+    font-size: 16px;
+    font-weight: 400px;
+    color: white;
+    margin-right: 8px;
+}
+
+  
+.bottom-form-tab-active-record {
+  padding-right: 18.66px;
+  padding-left: 18.66px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  transition: background-color 0.2s ease;
+  user-select: none;
+  cursor: pointer;
+  background-color:#00BA9F;
+}
+
+.bottom-form-tab-active-archive {
+  padding-right: 18.66px;
+  padding-left: 18.66px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  transition: background-color 0.2s ease;
+  user-select: none;
+  cursor: pointer;
+  background-color: #118AD3;
+}
+
+.bottom-form-tab-active-link {
+  padding-right: 18.66px;
+  padding-left: 18.66px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  transition: background-color 0.2s ease;
+  user-select: none;
+  cursor: pointer;
+  background-color: #FF1654;
+}

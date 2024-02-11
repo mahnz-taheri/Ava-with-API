@@ -1,0 +1,20 @@
+.contain-simple-text {
+    text-align: start;
+    margin-top: 33px;
+    max-height: 250px;
+    overflow-y: auto;
+    direction: rtl;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+.simple-text {
+  font-size: 16.7px;
+  font-weight: 300;
+  color: #000000;
+}
+ 
+.change-contain-simple-text {
+  text-align: left;
+}
+ 

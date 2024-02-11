@@ -1,0 +1,15 @@
+
+@font-face {
+  font-family: IRANYekan;
+  src: url('../public/fonts/woff2/IRANYekanXFaNum-Light.woff2');
+}
+
+
+*{
+  font-family: IRANYekan;
+  overflow: outo;
+}
+.App {
+  text-align: center;
+  width: 100%;
+}

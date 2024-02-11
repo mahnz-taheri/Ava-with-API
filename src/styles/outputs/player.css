@@ -1,0 +1,53 @@
+.player {
+width: 519px;
+height: 34px;
+border-radius: 10px;
+background-color: #F8F8F8;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.reset-voice {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #3D3D3D;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.resume-voice {
+  cursor: pointer;
+  margin-left: 11px;
+}
+  
+.slider {
+  width: 330px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.voice-time {
+ width: 35px;
+ font-size: 14px;
+ color: #3D3D3D;
+ font-weight: 300;
+ margin-left: 7px;
+ margin-right: 10px;
+}
+  
+.volume-icon {
+  margin-top: 4px;
+}
+
+.volume-indicator {
+  width: 40px;
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

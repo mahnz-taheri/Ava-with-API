@@ -1,0 +1,15 @@
+.goftar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid 1px;
+    flex-wrap: nowrap;
+  }
+ 
+.goftar-main-lang{
+  display: flex;
+  flex-direction: column;    
+}

@@ -1,0 +1,34 @@
+
+  .bottom-form-content-active-record-border-add-bottom-form-content {
+    width: 653px;
+    height: 429px;
+    flex-shrink: 0;
+    border-radius: 25px 0px 25px 25px; 
+    border: 1px solid  #00BA9F;
+    background: #FFF;
+    box-shadow: 1px 1px 50px 0px #6363630D;
+    transition: border-color 0.2s ease;
+  }
+  
+  .bottom-form-content-active-archive-border {
+    width: 653px;
+    height: 429px;
+    flex-shrink: 0;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid  #118AD3;
+    background: #FFF;
+    box-shadow: 1px 1px 50px 0px #6363630D;
+    transition: border-color 0.2s ease;
+  }
+
+  .bottom-form-content-active-link-border {
+    width: 653px;
+    height: 429px;
+    flex-shrink: 0;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid  #FF1654;
+    background: #FFF;
+    box-shadow: 1px 1px 50px 0px #6363630D;
+    transition: border-color 0.2s ease;
+  }
+ 

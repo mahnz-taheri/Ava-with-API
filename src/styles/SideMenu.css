@@ -1,0 +1,89 @@
+  .SideMenufalse {
+    background-image:  
+     url("../../public/images/rightbar/Alefba\ Group1.png"),linear-gradient(  rgba(2, 129, 110, 0.7),  rgba(2, 129, 110, 0.5) );
+    position:fixed;
+    width: 166px;
+    height: 100%;
+    top: 50%;  
+    transform: translateY(-50%);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+.SideMenu-hover { 
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+}
+
+.SideMenu-top {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 49px;
+  z-index: 1;
+}
+  .SideMenu-top-text {
+    margin-right: 11px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+.SideMenu-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 183px;
+}
+
+.SideMenu-bottom-speechfalse,
+.SideMenu-bottom-archivefalse {
+width: 150px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.SideMenu-bottom-speechfalse {
+  margin-bottom: 30px;
+}
+
+.rb-speech-text {
+  margin-right: 12px;
+}
+
+.rb-archive-text {
+  margin-right: 27px;
+}
+
+.SideMenu-bottom-speech-active-tab,
+.SideMenu-bottom-archive-active-tab {
+width: 150px;
+height: 48px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+cursor: pointer;
+border-radius: 10px;
+font-weight: 700;
+background-color: #02816E;
+}
+
+
+

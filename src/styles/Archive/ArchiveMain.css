@@ -1,0 +1,53 @@
+.archive-main {
+    width: 998px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}  
+
+.archive-main-title {
+  margin-top: 88px;
+  margin-bottom: 42px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #00BA9F;
+}
+
+.archive-main-header {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  direction: rtl;
+}
+
+.space-before {
+  flex: 1;
+}
+
+.name-column {
+  flex: 5.4;
+}
+
+.date-column {
+  flex: 1.7;
+  text-align: center;
+}
+
+.type-column {
+  flex: 1;
+  text-align: center;
+}
+
+.duration-column {
+  flex: 1.1;
+  text-align: center;
+}
+
+.space-after {
+  flex: 1.8;
+}
